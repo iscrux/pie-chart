@@ -1,0 +1,57 @@
+.container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    box-shadow: 7px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+.pie-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+}
+.pie-chart-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.pie-chart-container canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.animate-pie-chart {
+    width: 300px;
+    height: 300px;
+}
+
+.element {
+    position: absolute;
+}
+.pie-label-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.pie-label-item {
+    font-size: 16px;
+    position: absolute;
+}
+.pie-label-item__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.pie-label-item__body {
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.pie-label-item--left {
+    text-align: left;
+}
+
+.pie-label-item--right {
+    text-align: right;
+}
